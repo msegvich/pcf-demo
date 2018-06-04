@@ -13,11 +13,11 @@ public class CfDemoApplication {
 		SpringApplication.run(CfDemoApplication.class, args);
 	}
 
-    @RestController
+  @RestController
 	class SalutationsController{
         @GetMapping("/hello")
         public String hello(){
-            return "hello";
+            return "Hello from Blue!";
         }
     }
 }

@@ -17,7 +17,7 @@ public class ImprovedCfDemoApplication {
 
 		@GetMapping("/hello")
 		public String hello(){
-			return "Salut!";
+			return "Salut from Green!";
 		}
 	}
 }
